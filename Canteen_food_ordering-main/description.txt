@@ -1,0 +1,20 @@
+CANTEEN FOOD ORDERING SYSTEM
+
+PROBLEM STATEMENT:
+In College mainly in Canteen we  need to reduce Waiting Period . So 
+we thought of directly sending the orders to the Canteen server so that the order could be Ready  
+to them.
+
+ABSTRACT:
+• Canteen food ordering system is a platform where the customers could directly place the order in 
+the web page .
+• We provide details of the menu and the different types of cuisines from which the customer can order 
+and the amount of food he can order . 
+• The order will be placed .
+• For any further queries the admins could be contacted . The contact details is displayed in the website.
+• If you try to give an empty order then a pop up will be displayed saying " Your cart is empty. Order 
+something".
+• If you successfully add items into the cart and submit,then a pop up will be displayed saying " Your order is confirmed."
+
+THRUST AREA:
+• HTML , CSS , JavaScript

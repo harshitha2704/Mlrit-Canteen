@@ -1,0 +1,101 @@
+*
+{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body
+{
+	background-image: url(food2.jpg);
+	background-size: cover;
+	background-position: center;
+	
+	font-family: sans-serif;
+}
+.menu-bar
+{
+	background: rbga(0,100,0);
+	text-align: center;
+}
+.menu-bar ul
+{
+	display: inline-flex;
+	list-style:none;
+	color: #fff;
+}
+.menu-bar ul li
+{
+	width: 120px;
+	margin: 15px;
+	padding: 15px;
+}
+.menu-bar ul li a
+{
+	text-decoration: none;
+	color: #fff;
+}
+.active, .menu-bar ul li:hover
+{
+	background: ##252323;
+	border-radius: 3px;
+}
+.menu-bar .fa
+{
+	margin-right: 8px;
+}
+.submenu1
+{
+	display: none;
+}
+.menu-bar ul li:hover .submenu1
+{
+	display: block;
+	position: absolute;
+	background: rgb(17, 21, 74);
+	margin-top: 15px;
+	margin-left: -15px;
+	
+}
+.menu-bar ul li:hover .submenu1 ul
+{
+	display: block;
+	margin: 10px;
+}
+.menu-bar ul li:hover .submenu1 ul li
+{
+	width: 150px;
+	padding: 10px;
+	border-bottom: 1px dotted ##30505a;
+	background: transparent;
+	border-radius:0;
+	text-align:left;	
+}
+.menu-bar ul li:hover .submenu1 ul li:last-child
+{
+	border:none;
+}
+.menu-bar ul li:hover .submenu1 ul li a:hover
+{
+	color: #30505a;
+}
+.fa-angle-right
+{
+	float: right;
+}
+.submenu2
+{
+	display:none;
+}
+.hover-me:hover .submenu2
+{
+	position: absolute;
+	display: block;
+	margin-top: -40px;
+	margin-left: 140px;
+	background: rgb(17, 21, 74);
+}
+#cartlist{
+	width : 15%;
+	height : 550px;
+	line-height : 35px;
+}

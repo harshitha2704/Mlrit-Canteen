@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Food Ordering System</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="scriptt.js"></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="menu-bar">
+        <ul>
+            <li class="active"><a href="#"><i class="fa fa-home"></i>Home</a></li>
+            <li><a><i class="fa fa-bars"></i>Menu</a>
+
+                <div class="submenu1">
+                    <ul>
+                        <li class="hover-me"><a href="#">BREAKFAST</a><i class="fa fa-angle-right"></i>
+                            <div class="submenu2">
+                                <ul>
+                                    <li><a href="#" onclick="CopyToTextarea(total)">Idly	&#8377 35</a></li>
+                                    <li><a href="#" onclick="CopyToTextarea(this)">Vada 	&#8377 35</a></li>
+                                    <li><a href="#" onclick="CopyToTextarea(this)">Puri	&#8377 35</a></li>
+                                    <li><a href="#" onclick="CopyToTextarea(this)">Bonda  &#8377 35</a></li>
+                                    <li><a href="#" onclick="CopyToTextarea(this)">Dosa	&#8377 35</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="hover-me"><a href="#">LUNCH</a><i class="fa fa-angle-right"></i>
+                            <div class="submenu2">
+                                <ul>
+                                    <li><a href="#" onclick="CopyToTextarea(this)">Meals    &#8377 100</a></li>
+                                    <li><a href="#" onclick="CopyToTextarea(this)">Veg Biriyani    &#8377 110</a></li>
+                                    <li><a href="#" onclick="CopyToTextarea(this)">Chicken Biriyani    &#8377 140</a></li>
+                                    <li><a href="#" onclick="CopyToTextarea(this)">Egg Biriyani    &#8377 130</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="hover-me"><a href="#">FAST FOOD'S</a><i class="fa fa-angle-right"></i>
+                            <div class="submenu2">
+                                <ul>
+                                    <li><a href="#" onclick="CopyToTextarea(this)">Veg.Manchurian       &#8377 60</a></li>
+                                    <li><a href="#" onclick="CopyToTextarea(this)">Veg Noodles          &#8377 50</a></li>
+                                    <li><a href="#" onclick="CopyToTextarea(this)">Veg Fried Rice       &#8377 50</a></li>
+                                    <li><a href="#" onclick="CopyToTextarea(this)">Chicken Manchurian   &#8377 80</a></li>
+                                    <li><a href="#" onclick="CopyToTextarea(this)">Chicken Noodles      &#8377 60</a></li>
+                                    <li><a href="#" onclick="CopyToTextarea(this)">Chicken Fried Rice   &#8377 60</a></li>
+                                    <li><a href="#" onclick="CopyToTextarea(this)">Egg Noodles          &#8377 60</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="hover-me"><a href="#">SNACKS</a><i class="fa fa-angle-right"></i>
+                            <div class="submenu2">
+                                <ul>
+                                    <li><a href="#" onclick="CopyToTextarea(this)">Veg Roll      &#8377 20</a></li>
+                                    <li><a href="#" onclick="CopyToTextarea(this)">Chicken Roll  &#8377 20</a></li>
+                                    <li><a href="#" onclick="CopyToTextarea(this)">Samosa        &#8377 20</a></li>
+                                    <li><a href="#" onclick="CopyToTextarea(this)">Egg Puff      &#8377 20</a></li>
+                                    <li><a href="#" onclick="CopyToTextarea(this)">Shawarma      &#8377 80</a></li>
+                                    <li><a href="#" onclick="CopyToTextarea(this)">Frankie       &#8377 60</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="hover-me"><a href="#">DRINKS</a><i class="fa fa-angle-right"></i>
+                            <div class="submenu2">
+                                <ul>
+                                    <li><a href="#" onclick="CopyToTextarea(this)">Pepsi    &#8377 20</a></li>
+                                    <li><a href="#" onclick="CopyToTextarea(this)">Coke    &#8377 20</a></li>
+                                    <li><a href="#" onclick="CopyToTextarea(this)">Cavin's shake    &#8377 35</a></li>
+                                    <li><a href="#" onclick="CopyToTextarea(this)">Water Bottle    &#8377 20</a></li>
+                                    <li><a href="#" onclick="CopyToTextarea(this)">Frooti   &#8377 20</a></li>
+                                    <li><a href="#" onclick="CopyToTextarea(this)">Sprite    &#8377 20</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="#"><i class="fa fa-user"></i>About us</a>
+                <div class="submenu1">
+                    <ul>
+                        <li><a href="#">MLRIT CANTEEN</a></li>
+                        <li class="hover-me"><a href="#">ADDRESS</a><i class="fa fa-angle-right"></i>
+				<div class="submenu2">
+                                <ul>
+                                    <li><a href="#">MLRIT COLLEGE,DUNDIGAL</a></li>
+                                </ul>
+                            </div>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="#"><i class="fa fa-phone"></i>Contact</a>
+                <div class="submenu1">
+                    <ul>
+                        <li class="hover-me"><a href="#">AASHRITH</a><i class="fa fa-angle-right"></i>
+                            <div class="submenu2">
+                                <ul>
+                                    <li><a href="#">9700385500</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="hover-me"><a href="#">AJAY</a><i class="fa fa-angle-right"></i>
+                            <div class="submenu2">
+                                <ul>
+                                    <li><a href="#">7680046123</a></li>
+                                </ul>
+                            </div>
+                        </li>
+				<li class="hover-me"><a href="#">MANIKANTA</a><i class="fa fa-angle-right"></i>
+                            <div class="submenu2">
+                                <ul>
+                                    <li><a href="#">8667792690</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                      <li class="hover-me"><a href="#">HATIM</a><i class="fa fa-angle-right"></i>
+                            <div class="submenu2">
+                                <ul>
+                                    <li><a href="#">9701451413</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <h2>Your Order</h2>
+    <form id="FoodForm" onsubmit=confirm()>
+        <textarea id="cartlist"></textarea><br>
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+
+</html>
